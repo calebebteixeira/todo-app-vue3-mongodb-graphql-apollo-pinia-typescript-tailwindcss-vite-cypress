@@ -4,7 +4,8 @@
   "version": "0.0.0",
   "scripts": {
     "dev": "vite",
-    "serve": "nodemon api",
+    "serve-local": "nodemon api",
+    "serve": "node api",
     "build": "vue-tsc --noEmit && vite build",
     "preview": "vite preview",
     "format": "prettier --write \"src/**/*.{js,ts,vue}\"",
