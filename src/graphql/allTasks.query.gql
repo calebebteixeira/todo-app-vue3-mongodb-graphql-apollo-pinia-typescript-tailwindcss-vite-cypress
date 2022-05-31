@@ -1,0 +1,11 @@
+query allTasks {
+  allTasks {
+    id
+    title
+    description
+    date
+    completed
+    categoryId
+    category
+  }
+}
