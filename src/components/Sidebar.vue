@@ -7,7 +7,7 @@ import defaults from '../composables/defaults'
     :style="{ background: defaults.brand_gradient }"
   >
     <img
-      src="calebe-teixeira-avatar.jpg"
+      src="/calebe-teixeira-avatar.jpg"
       alt="Calebe B. Teixeira"
       class="border-4 border-color-white w-30 h-30 rounded-full inline-flex items-center justify-center bg-gray-200 text-gray-400"
     />

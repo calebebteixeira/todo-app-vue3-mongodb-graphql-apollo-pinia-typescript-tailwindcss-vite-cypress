@@ -16,7 +16,7 @@ import ToggleMode from './ToggleMode.vue'
         to="/"
         class="flex title-font font-medium items-center text-gray-900"
       >
-        <img src="logo.svg" :alt="defaults.title" class="w-12 md:w-15" />
+        <img src="/logo.svg" :alt="defaults.title" class="w-12 md:w-15" />
         <span class="ml-3 text-white text-xl">{{ defaults.title }}</span>
       </router-link>
 
