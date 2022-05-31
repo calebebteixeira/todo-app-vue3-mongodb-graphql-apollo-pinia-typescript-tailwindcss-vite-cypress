@@ -47,7 +47,7 @@ function toggleCompleted() {
             type="checkbox"
             :checked="props.task.completed"
             class="checked:bg-brand-primary mr-3 mt-1.8"
-            @change="toggleCompleted(props.task.completed)"
+            @change="toggleCompleted"
           />
           <span class="text-2xl font-medium title-font">
             {{ props.task.title }}

@@ -4,7 +4,7 @@
   "version": "0.0.0",
   "scripts": {
     "dev": "vite",
-    "serve": "nodemon server",
+    "serve": "nodemon api",
     "build": "vue-tsc --noEmit && vite build",
     "preview": "vite preview",
     "format": "prettier --write \"src/**/*.{js,ts,vue}\"",
@@ -12,6 +12,7 @@
   },
   "dependencies": {
     "@apollo/client": "^3.6.2",
+    "@types/random-words": "^1.1.2",
     "@unocss/reset": "^0.30.12",
     "@vue/apollo-composable": "^4.0.0-alpha.17",
     "animate.css": "^4.1.1",
@@ -28,13 +29,14 @@
     "vue": "^3.2.26"
   },
   "devDependencies": {
-    "@vitejs/plugin-vue": "^2.3.0",
     "@rollup/plugin-graphql": "^1.1.0",
-    "nodemon": "^2.0.16",
+    "@types/lodash": "^4.14.182",
+    "@vitejs/plugin-vue": "^2.3.0",
     "cypress": "^9.6.0",
     "eslint": "^8.13.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-vue": "^8.6.0",
+    "nodemon": "^2.0.16",
     "prettier": "^2.6.2",
     "sass": "^1.50.1",
     "typescript": "^4.5.4",

@@ -5,7 +5,7 @@ export const convertToSingleLine = (str: string | null): string => {
 }
 
 export const canSaveTask = (taskTitle: string, categoryId: string): boolean => {
-  return taskTitle.length >= 5 && categoryId
+  return Boolean(taskTitle.length >= 5 && categoryId)
 }
 
 export const getWords = (min: number, max: number) => {
@@ -13,6 +13,6 @@ export const getWords = (min: number, max: number) => {
   return str.charAt(0).toUpperCase() + str.slice(1)
 }
 
-export const randomInt = (min, max) => {
+export const randomInt = (min: number, max: number) => {
   return Math.floor(min + Math.random() * (max - min + 1))
 }
