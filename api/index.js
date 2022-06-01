@@ -9,15 +9,20 @@ const MONGODB =
 
 const server = new ApolloServer({
   typeDefs,
-  resolvers
+  resolvers,
+  introspection: true,
+  playground: true
 })
 
-mongoose
-  .connect(MONGODB, { useNewUrlParser: true })
-  .then(() => {
-    console.log('MongoDB connected')
-    return server.listen({ port: PORT })
-  })
-  .then(({ url }) => {
-    console.log(`Server running at ${url}`)
-  })
+// mongoose
+//   .connect(MONGODB, { useNewUrlParser: true })
+//   .then(() => {
+//     console.log('MongoDB connected')
+//     return server.listen({ port: PORT })
+//   })
+//   .then(({ url }) => {
+//     console.log(`Server running at ${url}`)
+//   })
+
+mongoose.connect(MONGODB, { useNewUrlParser: true })
+export default server.createHandler()
