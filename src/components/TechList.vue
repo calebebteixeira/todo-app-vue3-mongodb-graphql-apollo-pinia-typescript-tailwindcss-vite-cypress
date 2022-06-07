@@ -10,7 +10,7 @@ const techs = useTechStore()
         <p
           class="text-xs text-brand-primary tracking-widest font-medium title-font mb-1"
         >
-          Technlogies
+          Technologies
         </p>
         <h1 class="sm:text-3xl text-2xl font-medium title-font">
           This todo app was built with:

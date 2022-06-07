@@ -1,16 +1,69 @@
-# Vue 3 + Typescript + Vite
+## About Todo App
 
-This template should help get you started developing with Vue 3 and Typescript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+This useless todo app was developed just to show off my skills while practicing with *Vue.js 3* (with composition API), *MongoDB*, *GraphQL*, *Apollo*, *TypeScript*, *Pinia*, *Tailwind CSS* (with dark mode), *Cypress* (for E2E testing) and many other cool dev technologies.
 
-## Recommended IDE Setup
+## Node.js Commands
 
-- [VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.volar)
+Start Apollo Server
+```bash
+npm run serve
+```
 
-## Type Support For `.vue` Imports in TS
+Start Vite
+```bash
+npm run dev
+```
 
-Since TypeScript cannot handle type information for `.vue` imports, they are shimmed to be a generic Vue component type by default. In most cases this is fine if you don't really care about component prop types outside of templates. However, if you wish to get actual prop types in `.vue` imports (for example to get props validation when using manual `h(...)` calls), you can enable Volar's Take Over mode by following these steps:
+Run end to end testing with Cypress
+```bash
+npm run test
+```
 
-1. Run `Extensions: Show Built-in Extensions` from VSCode's command palette, look for `TypeScript and JavaScript Language Features`, then right click and select `Disable (Workspace)`. By default, Take Over mode will enable itself if the default TypeScript extension is disabled.
-2. Reload the VSCode window by running `Developer: Reload Window` from the command palette.
+Format all files with Prettier
+```bash
+npm run format
+```
 
-You can learn more about Take Over mode [here](https://github.com/johnsoncodehk/volar/discussions/471).
+## Technologies 
+
+- [Vue.js 3 (composition API)](https://vuejs.org/)
+A JavaScript framework for building user interfaces. It builds on top of standard HTML, CSS and JavaScript.
+
+- [MongoDB](https://www.mongodb.com/)
+An open source NoSQL database management program used as an alternative to the traditional relational databases.
+
+- [GraphQl](https://graphql.org/)
+A query language for APIs and a runtime for fulfilling those queries with your existing data.
+
+- [Apollo (Vue Apollo v4)](https://v4.apollo.vuejs.org/)
+A supergraph platform that unifies GraphQL across apps, unlocking faster software development.
+
+- [TypeScript](https://www.typescriptlang.org/)
+A strongly typed programming language that builds on JavaScript, giving you better tooling at any scale.
+
+- [Vite](https://vitejs.dev/)
+A build tool that aims to provide a faster and leaner development experience for modern web projects.
+
+- [Cypress](https://www.cypress.io/)
+An end-to-end testing framework for web test automation that enables front-end developers and test automation engineers to write automated web tests in JavaScript.
+
+- [Pinia](https://pinia.vuejs.org/)
+A store library for Vue, it allows you to share a state across components/pages and provides a simpler API than VUEX.
+
+- [Tailwind CSS](https://tailwindcss.com/)
+A higly customizable utility-first CSS framework for rapidly building custom user interfaces.
+
+- [SASS](https://sass-lang.com/)
+It offers a way to write styles for websites with more enhanced CSS syntax.
+
+- [Rollup](https://rollupjs.org/)
+A module bundler for JavaScript which compiles small pieces of code into something larger and more complex, such as a library or application.
+
+- [Node.js](https://nodejs.org/)
+An open-source, cross-platform, back-end JavaScript runtime environment that executes JavaScript code outside a web browser.
+
+- [ESLint](https://eslint.org/)
+A pluggable and configurable linter tool for identifying and reporting on patterns in JavaScript and helps you maintain your code quality with ease.
+
+- [Prettier](https://prettier.io/)
+An opinionated code formatter that enforces a consistent style by parsing your code and re-printing it with its own rules that take the maximum line length into account. 

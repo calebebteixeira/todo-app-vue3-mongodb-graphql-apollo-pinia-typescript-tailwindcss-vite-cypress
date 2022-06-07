@@ -14,16 +14,12 @@ const server = new ApolloServer({
   playground: true
 })
 
-const start = async () => {
-  mongoose
-    .connect(MONGODB, { useNewUrlParser: true })
-    .then(() => {
-      console.log('MongoDB connected')
-      return server.listen({ port: PORT })
-    })
-    .then(({ url }) => {
-      console.log(`Server running at ${url}`)
-    })
-}
-
-export default start()
+mongoose
+  .connect(MONGODB, { useNewUrlParser: true })
+  .then(() => {
+    console.log('MongoDB connected')
+    return server.listen({ port: PORT })
+  })
+  .then(({ url }) => {
+    console.log(`Server running at ${url}`)
+  })
