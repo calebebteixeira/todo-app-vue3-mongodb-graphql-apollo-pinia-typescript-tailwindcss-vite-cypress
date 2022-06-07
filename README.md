@@ -1,6 +1,6 @@
 <img src="https://raw.githubusercontent.com/calebebteixeira/todo-app-vue3-mongodb-graphql-apollo-pinia-typescript-tailwindcss-vite-cypress/main/Screenshot.png?token=GHSAT0AAAAAABOVKVTA6R4N2B7443ADCFLCYU7LMQQ" alt="Todo App (Todo App (Vue 3, MongoDB, GraphQL))">
 
-## About Todo App
+# Todo App (Vue 3, MongoDB, GraphQL)
 
 This useless todo app was developed just to show off my skills while practicing with *Vue.js 3* (with composition API), *MongoDB*, *GraphQL*, *Apollo*, *TypeScript*, *Pinia*, *Tailwind CSS* (with dark mode), *Cypress* (for E2E testing) and many other cool dev technologies.
 
